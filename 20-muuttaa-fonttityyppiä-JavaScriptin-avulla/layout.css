@@ -1,0 +1,28 @@
+
+body {
+  font-family: 'Grenze Gotisch', cursive;
+  font-family: 'Mansalva', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Turret Road', cursive;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.6rem;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.downPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button {
+  background-color: darkturquoise;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.downPart div {
+  font-size: 14px;
+}
