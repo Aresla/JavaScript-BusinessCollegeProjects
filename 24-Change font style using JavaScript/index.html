@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Mansalva&family=Roboto&family=Turret+Road&display=swap" rel="stylesheet">
+    <title>Muuttaa fonttityyppiä JavaScriptin avulla</title>
+</head>
+<body>
+    <h1>Muuta fonttityyppiä Javascriptin avulla</h1>
+    <p>Huom! Kaikki muutokset tapahtuvat Javascriptin avulla.
+        Listan fonttityyppiä vaihdetaan alla olevaa painonappia pinamalla.
+        Listan oletusfontti on "Courier New", fonttikoko 16px.
+    </p>
+    <h2>Tämän listan fonttikoko muutuu napista painamalla</h2>
+    <ol>
+        <li data-font="Roboto">Ensimmäinen napin painallus muuttaa fonttityypiksi "Roboto"</li>
+        <li data-font="Mansalva">Toinen napin painallus muuttaa fonttityypiksi "Mansalva"</li>
+        <li data-font="Grenze">Kolmas napin painallus muuttaa fonttityypiksi "Grenze"</li>
+        <li data-font="Turret Road">Neljäs napin painallus muuttaa fonttityypiksi "Turret Road"</li>
+        <li data-font="Courier New" class="active">Viides napin painallus muuttaa fonttityypiksi "Courier New"</li>
+    </ol>
+    <div class="downPart">
+        <button class="btn">Muuta fontti</button>
+        <div id="res"><p class="fontti">Fontti on nyt: "Courier New"</p></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
