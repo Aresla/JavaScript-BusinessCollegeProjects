@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+ul {
+    list-style: disc;
+    padding: 1rem 1rem 1rem 7.5rem;
+}
+h1,
+h2 {
+    font-size: 2rem;
+}
+table {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+tr {
+    line-height: 1.5;
+}
+td {
+    padding-right: 1rem;
+}
+
+.joka-toinen-rivi:nth-child(odd) {
+    background-color: gainsboro;
+}
+
+.rivit-vierekkain {
+    background-color: gainsboro;
+} 
+
+.dotted {
+    font-weight: bold;
+    color: brown;
+    text-decoration-style: dotted;
+}
+.spacing {
+    margin: 0.5rem;
+}
+
+#kolmas {
+    padding-right: 13rem;
+}
+
+#eka ul {
+    justify-content: flex-end;
+}
+
+
+
