@@ -1,0 +1,19 @@
+html {
+    font-size: 62.5%;
+  }
+  
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: #83C05B;
+font-size: 1.6rem;
+}
+
+
+#placeholder {
+   display: block;
+}
+
+.myImage {
+    width: 400px;
+    height: 300px;
+}
