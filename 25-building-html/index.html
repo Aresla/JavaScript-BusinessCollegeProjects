@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="reset.css">  -->
+    <link rel="stylesheet" href="layout.css">
+    <title>Tehtävä Artikkeli</title>
+</head>
+<body>
+
+    <script>
+        const runko = document.body;
+        const ylatunniste = document.createElement("header");
+        ylatunniste.id = "ylatunniste";
+        const osa = document.createElement("section");
+        osa.id = "osa";
+        const alatunniste = document.createElement("footer");
+        alatunniste.id = "alatunniste";
+        runko.prepend(alatunniste);
+        runko.prepend(osa);
+        runko.prepend(ylatunniste);
+
+        const otsikko = document.createElement("h1");
+        otsikko.id = "h1";
+        otsikko.textContent = "Tämä on artikkeli otsikko.";
+        document.getElementById("ylatunniste").appendChild(otsikko);
+
+        const p1 = document.createElement("p");
+        p1.id = "p1";
+        p1.textContent = "Ensimmainen kappale! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, quo reprehenderit asperiores aliquam ut explicabo tenetur animi temporibus officiis quam, inventore maxime dolor eaque vero debitis id sapiente at Lorem ipsum dolor sit amet consectetur adipisicing elit.";
+        document.getElementById("ylatunniste").appendChild(p1);
+
+        const p2 = document.createElement("p");
+        p2.id = "p2";
+        p2.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, quo reprehenderit asperiores aliquam ut explicabo tenetur animi temporibus officiis quam, inventore maxime dolor eaque vero debitis id sapiente at Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores asperiores officia libero animi delectus voluptate eos. Cupiditate, quo reprehenderit asperiores aliquam ut explicabo tenetur animi temporibus officiis quam, inventore maxime dolor eaque vero debitis id sapiente at Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quo reprehenderit asperiores aliquam ut explicabo tenetur animi temporibus officiis quam, inventore maxime dolor eaque vero debitis id sapiente at Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quo reprehenderit asperiores aliquam ut explicabo tenetur animi temporibus officiis quam, inventore maxime dolor eaque vero debitis id sapiente at Lorem ipsum dolor sit amet consectetur adipisicing elit.";
+        document.getElementById("osa").appendChild(p2);
+
+        const p3 = document.createElement("p");
+        p3.id = "p3";
+        p3.textContent = "@ 2023 Tatiana Pant";
+        document.getElementById("alatunniste").appendChild(p3);
+
+        const figure = document.createElement("figure");
+        figure.id = "kuvanpaikka";
+        const img = document.createElement("img");
+        img.src = "javascript-powered-multichannel-640w.gif";
+        document.getElementById("osa").appendChild(figure);
+        document.getElementById("kuvanpaikka").appendChild(img);
+
+    </script> 
+</body>
+</html>

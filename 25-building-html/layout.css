@@ -1,0 +1,36 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    border: 1px solid grey;
+}
+
+header {
+    border: 1px dotted grey;
+    padding: 1rem;
+}
+
+footer {
+    border: 1px dotted grey;
+    padding: 1rem;
+}
+#osa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#p2 {
+    margin-inline-start: 1rem;
+    max-width: 50%;
+}
+
+figure {
+    max-width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
